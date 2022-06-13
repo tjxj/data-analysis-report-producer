@@ -1,6 +1,7 @@
 from imports import *
 from functions import *
 
+
 st.title("🖱️ Interactive table app")
 uploaded_file = st.file_uploader("Choose a CSV file", accept_multiple_files=False)
 if uploaded_file:
